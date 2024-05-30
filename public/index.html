@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Signup</title>
+    <link rel="stylesheet" href="default-styles.css">
+    <link rel="stylesheet" href="custom-styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Interested in investing?</h1>
+        <form id="signupForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <!-- Hidden field for the Wefunder URL -->
+            <input type="hidden" id="wefunderUrl" name="wefunderUrl" value="https://wefunder.com/company">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
