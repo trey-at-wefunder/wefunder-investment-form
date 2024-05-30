@@ -71,6 +71,31 @@ node_modules/
 data.json
 ```
 
+# To deploy the form on your website at www.mysite.com/invest, follow these steps:
+
+Upload the Contents of the public Directory:
+
+Use an FTP client or your hosting provider's file manager to upload the contents of the public directory to the desired directory on your web server. For example, upload the files to the www.mysite.com/invest directory.
+Ensure Your Web Server is Configured Correctly:
+
+Make sure your web server is configured to serve the index.html file when someone navigates to www.mysite.com/invest.
+Example Steps Using cPanel (Common Web Hosting Control Panel)
+Log in to cPanel:
+
+Access your cPanel by going to www.mysite.com/cpanel and logging in with your credentials.
+Navigate to the File Manager:
+
+In the Files section, click on "File Manager."
+Upload Files:
+
+Navigate to the public_html directory or the root directory for your site.
+Create a new folder named invest (if it doesn't already exist).
+Open the invest folder and click on "Upload."
+Upload all the files from the public directory on your local machine to this invest folder.
+Verify the Deployment:
+
+Open your browser and navigate to www.mysite.com/invest to ensure the form is displayed correctly.
+
 # Contributing
 Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or suggestions.
 
