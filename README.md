@@ -14,7 +14,6 @@ cd wefunder-investment-form
 2. Install Dependencies
 Install the necessary dependencies using npm:
 ```bash
-Copy code
 npm install
 ```
 
